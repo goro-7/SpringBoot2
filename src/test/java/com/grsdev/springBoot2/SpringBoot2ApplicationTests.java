@@ -1,4 +1,4 @@
-package com.grsdev.springBoot2.SpringBoot2;
+package com.grsdev.springBoot2;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

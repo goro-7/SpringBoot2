@@ -76,7 +76,6 @@
 				<version>3.8.0</version>
 				<configuration>
 					<release>11</release>
-					or <!--<release>10</release> -->
 				</configuration>
 			</plugin>
 
