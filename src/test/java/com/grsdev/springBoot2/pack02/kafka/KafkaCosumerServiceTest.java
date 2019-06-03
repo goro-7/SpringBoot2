@@ -1,6 +1,6 @@
 package com.grsdev.springBoot2.pack02.kafka;
 
-import org.junit.Test;
+/*import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -18,4 +18,4 @@ public class KafkaCosumerServiceTest {
 		
 		kafkaConsumerService.readAllMessages("6iykfcd3-topic1").forEach(System.out::println);
 	}
-}
+}*/

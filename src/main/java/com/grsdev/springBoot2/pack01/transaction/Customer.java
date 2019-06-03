@@ -1,14 +1,9 @@
 package com.grsdev.springBoot2.pack01.transaction;
 
-import java.math.BigDecimal;
-
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.NamedNativeQuery;
-import javax.persistence.OneToOne;
-
 import com.fasterxml.jackson.databind.JsonNode;
+
+import javax.persistence.*;
+import java.math.BigDecimal;
 
 @Entity
 @NamedNativeQuery(name="findAll",query="select * from customer",resultClass=Customer.class)

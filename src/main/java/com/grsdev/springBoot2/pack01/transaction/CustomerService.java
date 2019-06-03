@@ -1,12 +1,12 @@
 package com.grsdev.springBoot2.pack01.transaction;
 
-import static java.lang.System.out;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.transaction.support.TransactionSynchronizationManager;
+
+import static java.lang.System.*;
 
 @Service
 public class CustomerService {

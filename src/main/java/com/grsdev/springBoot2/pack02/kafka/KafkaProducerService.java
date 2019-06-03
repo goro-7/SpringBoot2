@@ -1,12 +1,12 @@
 package com.grsdev.springBoot2.pack02.kafka;
 
-import java.util.concurrent.ExecutionException;
-
-import org.springframework.beans.factory.annotation.Autowired;
+/*import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.support.SendResult;
 import org.springframework.stereotype.Service;
 import org.springframework.util.concurrent.ListenableFuture;
+
+import java.util.concurrent.ExecutionException;
 
 @Service
 public class KafkaProducerService {
@@ -25,4 +25,4 @@ public class KafkaProducerService {
 	}
 	
 	
-}
+}*/

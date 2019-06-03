@@ -1,15 +1,14 @@
 package com.grsdev.springBoot2.pack01.transaction;
 
-import java.math.BigDecimal;
-import java.util.List;
-
-import javax.persistence.EntityManager;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.transaction.interceptor.TransactionAspectSupport;
+
+import javax.persistence.EntityManager;
+import java.math.BigDecimal;
+import java.util.List;
 
 @Repository
 public class CustomerRepo {

@@ -1,13 +1,13 @@
 package com.grsdev.springBoot2.pack02.kafka;
-
-import java.util.Collection;
-import java.util.List;
-import java.util.Map;
-
+/*
 import org.apache.kafka.common.TopicPartition;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.kafka.listener.ConsumerSeekAware;
 import org.springframework.stereotype.Service;
+
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Map;
 
 @Service
 public class KafkaConsumerService implements ConsumerSeekAware{
@@ -27,9 +27,7 @@ public class KafkaConsumerService implements ConsumerSeekAware{
 
 	public Collection<String> readAllMessages(String string) {
 		
-		return List.of();
-		
-		
+		return Arrays.asList();
 	}
 
 	@Override
@@ -50,4 +48,4 @@ public class KafkaConsumerService implements ConsumerSeekAware{
 		
 	}
 
-}
+}*/

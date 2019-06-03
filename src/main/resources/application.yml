@@ -17,8 +17,11 @@ spring:
                driverClassName: org.h2.Driver
       jpa: 
         hibernate:
-                ddlAuto: update           
-      
+                ddlAuto: update
+
+      flyway:
+        baseline-on-migrate: true
+
       kafka: 
         bootstrap-servers: velomobile-01.srvs.cloudkafka.com:9094,velomobile-02.srvs.cloudkafka.com:9094,velomobile-03.srvs.cloudkafka.com:9094
         properties: 
