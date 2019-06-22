@@ -1,6 +1,7 @@
 package com.grsdev.springBoot2.pack03.flyway;
 
 
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,6 +13,7 @@ import static java.lang.System.*;
 
 @SpringBootTest
 @RunWith(SpringRunner.class)
+@Ignore
 public class FlywayTest {
 
     @Autowired

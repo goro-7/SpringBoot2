@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>com.grsdev.springBoot2</groupId>
 	<artifactId>SpringBoot2</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<name>SpringBoot2</name>
 	<description>Demo project for Spring Boot 2</description>
 

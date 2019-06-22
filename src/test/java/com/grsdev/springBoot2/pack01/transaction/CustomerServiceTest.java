@@ -1,5 +1,6 @@
 package com.grsdev.springBoot2.pack01.transaction;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +14,7 @@ import static java.lang.System.*;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
+@Ignore
 public class CustomerServiceTest {
 
 	@Autowired
