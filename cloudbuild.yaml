@@ -4,4 +4,4 @@ steps:
     args: ['clean', 'install', '-DskipTests']
   - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '-t', 'gcr.io/$PROJECT_ID/springboot2', '.']
-    images: ['gcr.io/$PROJECT_ID/springboot2']
+images: ['gcr.io/$PROJECT_ID/springboot2']
