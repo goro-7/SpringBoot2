@@ -49,6 +49,12 @@
 			<version>${flyway.version}</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
+
 		<!-- removed kafka as not learning write now
     <dependency>
         <groupId>org.springframework.kafka</groupId>
